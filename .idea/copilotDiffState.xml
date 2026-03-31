@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/NguyenNhatQuan/Bai14/Main.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/NguyenNhatQuan/Bai14/Main.java" />
+              <option name="originalContent" value="package NguyenNhatQuan.Bai14;&#10;&#10;import java.util.Scanner;&#10;&#10;public class Main {&#10;    private static final Scanner sc = new Scanner(System.in);&#10;    public static void main(String[] args) {&#10;        while(true) {&#10;            System.out.println(&quot;1. write to do&quot;);&#10;            System.out.println(&quot;2. read to do&quot;);&#10;            System.out.println(&quot;3. exit&quot;);&#10;            System.out.println(&quot;Enter your choice:&quot;);&#10;            int choice = Integer.parseInt(sc.nextLine());&#10;            switch (choice) {&#10;                case 1 -&gt; TodoApp.writeToDo(&quot;todo.txt&quot;);&#10;                case 2 -&gt; TodoApp.readToDo(&quot;todo.txt&quot;);&#10;                case 3 -&gt; {&#10;                    System.out.println(&quot;Exiting...&quot;);&#10;                    sc.close();&#10;                    return;&#10;                }&#10;                default -&gt; System.out.println(&quot;Invalid choice. Please try again.&quot;);&#10;            }&#10;        }&#10;    }&#10;}&#10;" />
+              <option name="updatedContent" value="package NguyenNhatQuan.Bai14;&#10;&#10;import java.util.Scanner;&#10;&#10;public class Main {&#10;    private static final Scanner sc = new Scanner(System.in);&#10;    public static void main(String[] args) {&#10;        while(true) {&#10;            System.out.println(&quot;1. write to do&quot;);&#10;            System.out.println(&quot;2. read to do&quot;);&#10;            System.out.println(&quot;3. exit&quot;);&#10;            System.out.println(&quot;Enter your choice:&quot;);&#10;            int choice = Integer.parseInt(sc.nextLine());&#10;            switch (choice) {&#10;                case 1 -&gt; TodoApp.writeToDo(&quot;todo.txt&quot;, sc);&#10;                case 2 -&gt; TodoApp.readToDo(&quot;todo.txt&quot;);&#10;                case 3 -&gt; {&#10;                    System.out.println(&quot;Exiting...&quot;);&#10;                    sc.close();&#10;                    return;&#10;                }&#10;                default -&gt; System.out.println(&quot;Invalid choice. Please try again.&quot;);&#10;            }&#10;        }&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
