@@ -1,0 +1,8 @@
+package NguyenNhatQuan.designPattern.AbstracFactory;
+
+public class DarkButton implements Button{
+    @Override
+    public void render() {
+        System.out.println("Dark Button");
+    }
+}
