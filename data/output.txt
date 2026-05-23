@@ -1,0 +1,8 @@
+Chao mung ban den voi the gioi cua Java I/O!
+Day la mot doan text mau de kiem tra viec doc va ghi du lieu duoi dang Byte.
+FileInputStream se doc tung byte o day.
+FileOutputStream se ghi chung ra mot file moi.
+Chao mung ban den voi the gioi cua Java I/O!
+Day la mot doan text mau de kiem tra viec doc va ghi du lieu duoi dang Byte.
+FileInputStream se doc tung byte o day.
+FileOutputStream se ghi chung ra mot file moi.
